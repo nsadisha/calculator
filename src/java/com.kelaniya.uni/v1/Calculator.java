@@ -1,4 +1,4 @@
-package com.kelaniya.uni;
+package com.kelaniya.uni.v1;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -8,7 +8,7 @@ public class Calculator {
     public static void main(String[] args) {
         try {
             //creating all scanner and file objects
-            File file = new File("src/java/com.kelaniya.uni/in/numbers.txt");
+            File file = new File("src/java/com.kelaniya.uni/in/v1/numbers.txt");
             Scanner fileScanner = new Scanner(file);
             Scanner sc = new Scanner(System.in);
             String op;
