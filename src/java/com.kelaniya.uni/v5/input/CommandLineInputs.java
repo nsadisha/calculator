@@ -1,8 +1,8 @@
-package com.kelaniya.uni.v5;
+package com.kelaniya.uni.v5.input;
 
-public class CommandLineInputs {
+public class CommandLineInputs implements Inputs{
     String[] args;
-    CommandLineInputs(String[] args){
+    public CommandLineInputs(String[] args){
         this.args = args;
     }
     public String getOperator(){
