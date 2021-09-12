@@ -1,7 +1,7 @@
-package com.kelaniya.uni.v5;
+package com.kelaniya.uni.v5.ui;
 
-public class UI {
-    public static void showMessage(String message){
+public class CmdLineUI implements UI{
+    public void showMessage(String message){
         System.out.println(message);
     }
 }
